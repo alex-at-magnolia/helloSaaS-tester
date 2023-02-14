@@ -32,4 +32,10 @@ areas:
         id: spa-lm:components/paragraph
       List:
         id: spa-lm:components/list
+  
+  bottom:
+    title: bottom bit
+    availableComponents:
+      Paragraph:
+        id: spa-lm:components/paragraph
         

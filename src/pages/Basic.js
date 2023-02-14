@@ -21,7 +21,7 @@ const Basic = props => {
       </div> 
 
       <div className="Bottom bit" >
-        <div className="hint">[Bottom Area]</div>
+        <div className="hint">[Sercondary Area]</div>
         {bottom && <EditableArea className="Area" content={bottom} />} 
       </div>    
     </div>

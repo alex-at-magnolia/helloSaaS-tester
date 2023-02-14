@@ -19,11 +19,6 @@ const Basic = props => {
         {extras && <EditableArea className="Area" content={extras} />}  
         {/* <button>Contact</button> */}
       </div> 
-
-      <div className="Bottom bit" >
-        <div className="hint">[Sercondary Area]</div>
-        {bottom && <EditableArea className="Area" content={bottom} />} 
-      </div>    
     </div>
   ) 
 };

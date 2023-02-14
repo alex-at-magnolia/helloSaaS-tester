@@ -1,10 +1,10 @@
 enabled: true
 contentSecurityPolicy:
-    default-src 'self' https://id.magnolia-cloud.com
-    script-src 'self' 'unsafe-inline' 'unsafe-eval'
-    style-src 'self' 'unsafe-inline'
-    object-src 'none'
-    frame-src localhost:* https:// * .saas.magnolia-cloud.com/* https://subscription-service-ui.beta.de.magnolia-cloud.com
+  default-src 'self' https://id.magnolia-cloud.com
+  script-src 'self' 'unsafe-inline' 'unsafe-eval'
+  style-src 'self' 'unsafe-inline'
+  object-src 'none'
+  frame-src localhost:* https:// * .saas.magnolia-cloud.com/* https://subscription-service-ui.beta.de.magnolia-cloud.com
 strictTransportSecurity:
-    max-age=31536000
-    includeSubDomains
+  max-age=31536000
+  includeSubDomains

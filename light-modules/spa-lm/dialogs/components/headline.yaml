@@ -5,6 +5,8 @@ form:
       label: Headline
       $type: textField
       i18n: true
+      defaultValue: spa-lm.templates.components.Headline
+      converterClass: info.magnolia.ui.field.converter.TranslatingConverter
     subtitle: 
       label: Subheading
       $type: textField
